@@ -1,7 +1,4 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
+html, body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	height: 100vh;
     width: 100vw;
@@ -21,10 +18,6 @@ body {
 	padding: 15px, 30px;
 }
 
-
-}
-
-
 .container1{
 	background-color: yellowgreen;
 	background-position: center;
@@ -36,7 +29,6 @@ body {
 
 .container2{
 	background-position: center;
-	color: #fff;
 	text-align: center;
 	height: 300px;
 }
@@ -66,7 +58,6 @@ body {
 	font-size: 40px;
 	display: inline-block;
 	vertical-align: middle;
-	color: #fff;
 }
 
 .item-1,.item-2, .item-3 {
