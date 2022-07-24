@@ -1,24 +1,80 @@
-body{
-	width: 100%;
-	height: 100%;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	height: 100vh;
+    width: 100vw;
 }
 
-.container1{
+.intro{
 	background-image: url("https://i.picsum.photos/id/1016/3844/2563.jpg?hmac=WEryKFRvTdeae2aUrY-DHscSmZuyYI9jd_-p94stBvc");
 	background-position: center;
 	position: relative;
-    width: 100%;
-	min-height: auto;
-	text-align: center;
-	color: #fff;
+    color: #fff;
+
 }
+
 .btn{
 	background-color: lightseagreen;
 	border-radius: 30px;
+	padding: 15px, 30px;
+}
+
+
+}
+
+
+.container1{
+	background-color: yellowgreen;
+	background-position: center;
+	position: relative;
+	color: #fff;
+	height: 300px;
+	text-align: center;
 }
 
 .container2{
-	background-color: yellowgreen;
-	text-align: center;
+	background-position: center;
 	color: #fff;
+	text-align: center;
+	height: 300px;
+}
+
+.container3{
+	background-color: #222;
+	color: #fff;
+}
+
+.item-1{
+	background-image: url("https://i.picsum.photos/id/101/2621/1747.jpg?hmac=cu15YGotS0gIYdBbR1he5NtBLZAAY6aIY5AbORRAngs");
+}
+
+.item-2{
+	background-image: url("https://picsum.photos/id/1024/1920/1280");
+}
+
+.item-3{
+	background-image: url("https://picsum.photos/id/1036/4608/3072");
+}
+.promo-item{
+	height: 200px;
+	line-height: 180px;
+	text-align: center;
+}
+.promo-item h3{
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.item-1,.item-2, .item-3 {
+background-size: cover;
+background-position: 50% 50%;
+}
+
+.container5{
+	padding: 20px 0 40px;
+	text-align: center;
 }
